@@ -1,10 +1,10 @@
 const images = document.querySelectorAll('.carousel-img');
-let current = 1; // индекс центральной картинки
+let current = 1;
 
 function updateCarousel() {
     images.forEach((img, i) => {
         img.classList.remove('center', 'left', 'right', 'hidden');
-        img.onclick = null; // Сбросить обработчик
+        img.onclick = null;
         if (i === current) {
             img.classList.add('center');
         } else if (i === (current - 1 + images.length) % images.length) {
@@ -25,5 +25,4 @@ function updateCarousel() {
     });
 }
 
-// Начальное состояние
 updateCarousel();
