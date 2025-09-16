@@ -15,7 +15,7 @@ This is a single-page website for **TiPlatformer** — a classic 2D platformer g
 
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/tiplatformer-landing.git
+    git clone https://github.com/shadow-bytee/game-download-page-v2.git
     ```
 2. Open the project folder.
 3. Launch `index.html` in your browser.
